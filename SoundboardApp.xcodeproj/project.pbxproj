@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		17FA028826592A320035A5E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA028726592A320035A5E5 /* AppDelegate.swift */; };
-		17FA028A26592A330035A5E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA028926592A330035A5E5 /* SceneDelegate.swift */; };
-		17FA028C26592A330035A5E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA028B26592A330035A5E5 /* ViewController.swift */; };
-		17FA028F26592A330035A5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FA028D26592A330035A5E5 /* Main.storyboard */; };
 		17FA029126592A340035A5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17FA029026592A340035A5E5 /* Assets.xcassets */; };
 		17FA029426592A340035A5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17FA029226592A340035A5E5 /* LaunchScreen.storyboard */; };
+		17FA02A026592A8F0035A5E5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA029F26592A8F0035A5E5 /* HomeViewModel.swift */; };
+		17FA02A226592A940035A5E5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA02A126592A940035A5E5 /* HomeViewController.swift */; };
+		17FA02A426592A970035A5E5 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA02A326592A970035A5E5 /* HomeTableViewCell.swift */; };
+		17FA02AB26592D8A0035A5E5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FA02AA26592D8A0035A5E5 /* Person.swift */; };
+		17FA02AF26593A6C0035A5E5 /* mamic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17FA02AC26593A6B0035A5E5 /* mamic.mp3 */; };
+		17FA02B026593A6C0035A5E5 /* elon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17FA02AD26593A6C0035A5E5 /* elon.mp3 */; };
+		17FA02B126593A6C0035A5E5 /* zukerberg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 17FA02AE26593A6C0035A5E5 /* zukerberg.mp3 */; };
+		B0CDCC46D457046C2AD6F0C2 /* Pods_SoundboardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19D294266F399C011946F3A /* Pods_SoundboardApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17FA028426592A320035A5E5 /* SoundboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17FA028726592A320035A5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17FA028926592A330035A5E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17FA028B26592A330035A5E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17FA028E26592A330035A5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17FA029026592A340035A5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17FA029326592A340035A5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17FA029526592A340035A5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17FA029F26592A8F0035A5E5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		17FA02A126592A940035A5E5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		17FA02A326592A970035A5E5 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		17FA02AA26592D8A0035A5E5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		17FA02AC26593A6B0035A5E5 /* mamic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mamic.mp3; sourceTree = "<group>"; };
+		17FA02AD26593A6C0035A5E5 /* elon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elon.mp3; sourceTree = "<group>"; };
+		17FA02AE26593A6C0035A5E5 /* zukerberg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = zukerberg.mp3; sourceTree = "<group>"; };
+		65707821F147BB1BD13AB842 /* Pods-SoundboardApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundboardApp.release.xcconfig"; path = "Target Support Files/Pods-SoundboardApp/Pods-SoundboardApp.release.xcconfig"; sourceTree = "<group>"; };
+		AD59DCF0CEFC9159659DFFF1 /* Pods-SoundboardApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundboardApp.debug.xcconfig"; path = "Target Support Files/Pods-SoundboardApp/Pods-SoundboardApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C19D294266F399C011946F3A /* Pods_SoundboardApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundboardApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CDCC46D457046C2AD6F0C2 /* Pods_SoundboardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +55,8 @@
 			children = (
 				17FA028626592A320035A5E5 /* SoundboardApp */,
 				17FA028526592A320035A5E5 /* Products */,
+				FDF13F4217703B497CA8B1BE /* Pods */,
+				6F97FBAA962625D5BCF3A376 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +71,76 @@
 		17FA028626592A320035A5E5 /* SoundboardApp */ = {
 			isa = PBXGroup;
 			children = (
+				17FA02AD26593A6C0035A5E5 /* elon.mp3 */,
+				17FA02AC26593A6B0035A5E5 /* mamic.mp3 */,
+				17FA02AE26593A6C0035A5E5 /* zukerberg.mp3 */,
+				17FA02A926592D830035A5E5 /* Model */,
+				17FA02A526592B4E0035A5E5 /* Home */,
 				17FA028726592A320035A5E5 /* AppDelegate.swift */,
-				17FA028926592A330035A5E5 /* SceneDelegate.swift */,
-				17FA028B26592A330035A5E5 /* ViewController.swift */,
-				17FA028D26592A330035A5E5 /* Main.storyboard */,
 				17FA029026592A340035A5E5 /* Assets.xcassets */,
 				17FA029226592A340035A5E5 /* LaunchScreen.storyboard */,
 				17FA029526592A340035A5E5 /* Info.plist */,
 			);
 			path = SoundboardApp;
+			sourceTree = "<group>";
+		};
+		17FA02A526592B4E0035A5E5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				17FA02A826592B780035A5E5 /* ViewModel */,
+				17FA02A626592B560035A5E5 /* UI */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		17FA02A626592B560035A5E5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				17FA02A126592A940035A5E5 /* HomeViewController.swift */,
+				17FA02A726592B5A0035A5E5 /* Cell */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		17FA02A726592B5A0035A5E5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				17FA02A326592A970035A5E5 /* HomeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		17FA02A826592B780035A5E5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				17FA029F26592A8F0035A5E5 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		17FA02A926592D830035A5E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17FA02AA26592D8A0035A5E5 /* Person.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F97FBAA962625D5BCF3A376 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C19D294266F399C011946F3A /* Pods_SoundboardApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDF13F4217703B497CA8B1BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD59DCF0CEFC9159659DFFF1 /* Pods-SoundboardApp.debug.xcconfig */,
+				65707821F147BB1BD13AB842 /* Pods-SoundboardApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17FA029826592A340035A5E5 /* Build configuration list for PBXNativeTarget "SoundboardApp" */;
 			buildPhases = (
+				24E9B78F8EBF2F0AD28CB84A /* [CP] Check Pods Manifest.lock */,
 				17FA028026592A320035A5E5 /* Sources */,
 				17FA028126592A320035A5E5 /* Frameworks */,
 				17FA028226592A320035A5E5 /* Resources */,
+				37939B6A7AA7E556D5DC6FC9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,36 +202,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17FA02B126593A6C0035A5E5 /* zukerberg.mp3 in Resources */,
+				17FA02B026593A6C0035A5E5 /* elon.mp3 in Resources */,
+				17FA02AF26593A6C0035A5E5 /* mamic.mp3 in Resources */,
 				17FA029426592A340035A5E5 /* LaunchScreen.storyboard in Resources */,
 				17FA029126592A340035A5E5 /* Assets.xcassets in Resources */,
-				17FA028F26592A330035A5E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24E9B78F8EBF2F0AD28CB84A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoundboardApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37939B6A7AA7E556D5DC6FC9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundboardApp/Pods-SoundboardApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoundboardApp/Pods-SoundboardApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoundboardApp/Pods-SoundboardApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17FA028026592A320035A5E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17FA028C26592A330035A5E5 /* ViewController.swift in Sources */,
+				17FA02AB26592D8A0035A5E5 /* Person.swift in Sources */,
+				17FA02A426592A970035A5E5 /* HomeTableViewCell.swift in Sources */,
+				17FA02A026592A8F0035A5E5 /* HomeViewModel.swift in Sources */,
 				17FA028826592A320035A5E5 /* AppDelegate.swift in Sources */,
-				17FA028A26592A330035A5E5 /* SceneDelegate.swift in Sources */,
+				17FA02A226592A940035A5E5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		17FA028D26592A330035A5E5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17FA028E26592A330035A5E5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17FA029226592A340035A5E5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +399,7 @@
 		};
 		17FA029926592A340035A5E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD59DCF0CEFC9159659DFFF1 /* Pods-SoundboardApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +418,7 @@
 		};
 		17FA029A26592A340035A5E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65707821F147BB1BD13AB842 /* Pods-SoundboardApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,6 @@
+framework module Pods_SoundboardApp {
+  umbrella header "Pods-SoundboardApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
